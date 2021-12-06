@@ -1,0 +1,21 @@
+.dropdown-content__item {
+  padding: 10px 0 10px 22px;
+  transition: .2s;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  background-color: #F8F5EE;
+  color: #1E1E1E;
+  text-align: left;
+  border:none;
+  outline: none;
+  font-size: 16px;
+  user-select: none;
+
+  &:hover {
+    background-color: #B48565;
+    color: #F8F5EE;
+  }
+}

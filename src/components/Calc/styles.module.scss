@@ -1,0 +1,16 @@
+.calc {
+  display: flex;
+  justify-content: space-between;
+  &-right {
+    &__image{
+      width: 100%;
+      object-fit: contain;
+    }
+    flex-basis: 32%;
+    width: 32%;
+
+  }
+  &-left {
+    flex-basis: 64.5%;
+  }
+}

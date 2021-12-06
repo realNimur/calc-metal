@@ -1,0 +1,25 @@
+.total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-text{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #101010;
+  }
+  &__button{
+    background-color: #B48565;
+    border-radius: 5px;
+    width: 36.5%;
+    font-size: 16px;
+    padding: 12px 0;
+    letter-spacing: 0.04em;
+    color: #F8F5EE;
+    cursor: pointer;
+    border: none;
+    outline:none;
+    &[disabled]{
+      opacity: 0.3;
+    }
+  }
+}

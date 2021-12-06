@@ -1,0 +1,18 @@
+.tags-item {
+  background-color: #F8F5EE;
+  border-radius: 100px;
+  padding: 6px 13px;
+  user-select: none;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #101010;
+  margin-right: 16px;
+  &:last-child{
+    margin-right: 0;
+  }
+  &.active {
+    background-color: #B48565;
+    color: #F8F5EE;
+  }
+}

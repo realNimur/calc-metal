@@ -1,0 +1,10 @@
+.header{
+  margin-bottom: 40px;
+  &__caption{
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #B48565;
+    text-shadow: 0 4px 4px #00000040
+  }
+}
